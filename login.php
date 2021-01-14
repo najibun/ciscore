@@ -11,6 +11,7 @@ header("location:index.php");
 <html>
 <head>
 <title>CIS Security Score</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -28,7 +29,7 @@ header("location:index.php");
 
 </head>
 <body>
-
+  <main>
         <div class="slider-area hero-bg1 hero-overly">
             <div class="single-slider hero-overly  slider-height1 d-flex align-items-center">
                 <div class="container">
@@ -63,6 +64,7 @@ header("location:index.php");
                 </div>
             </div>
         </div>
+    </main>
 
 <!-- JS here -->
 
