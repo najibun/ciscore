@@ -11,6 +11,7 @@ header("location:index.php");
 <html>
 <head>
 <title>CIS Security Score</title>
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -35,7 +36,7 @@ header("location:index.php");
                         <div class="col-xl-4 col-lg-10">
                             <!-- Hero Caption -->
                             <div class="hero__caption">
-                                <h1><a href="index.php">CISCORE.</a></h1>
+                                <h1><a href="index.php">CISCORE</a>.</h1>
                                 <p><?php 
   if(isset($_GET['pesan'])){
     if($_GET['pesan'] == "gagal"){
