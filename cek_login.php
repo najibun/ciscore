@@ -6,8 +6,8 @@ session_start();
 include 'koneksi.php';
  
 // menangkap data yang dikirim dari form
-$username = mysql_real_escape_string($_POST['username']);
-$password = mysql_real_escape_string(md5($_POST['password']));
+$username = mysqli_real_escape_string($koneksi,$_POST['username']);
+$password = mysqli_real_escape_string($koneksi,md5($_POST['password']));
  
 // menyeleksi data admin dengan username dan password yang sesuai
 $data = mysqli_query($koneksi,"select * from admin where username='$username' and password='$password'");
